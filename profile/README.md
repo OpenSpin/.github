@@ -1,1 +1,1 @@
-This is our organisation OpenSpin
+This is the beggninng of our organisation OpenSpin!
