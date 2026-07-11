@@ -1,0 +1,39 @@
+name: "🧭 Propose a new avenue / project"
+description: Pitch a new simulator, skill, dataset, or direction for OpenSpin.
+title: "[proposal] <short description>"
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea for something new? Sketch it here. Rough is fine — the point is to start a conversation, not write a spec.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's the idea?
+      description: What would you build or explore, and why is it useful for open spin-qubit tooling?
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of thing is it?
+      options:
+        - Simulator
+        - Skill
+        - Dataset
+        - Tooling / infrastructure
+        - Docs / education
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Smallest useful first step
+      description: What's the tiniest version that would already be worth having? (Helps keep it PR-sized.)
+  - type: textarea
+    id: help
+    attributes:
+      label: Are you looking for collaborators?
+      placeholder: e.g. Happy to lead, but would love a second person on the physics side.

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Questions & general chat
+    url: https://github.com/orgs/OpenSpin/discussions
+    about: Not sure where something goes, or just want to say hi? Start here.
+  - name: 📖 Docs & meeting notes
+    url: https://github.com/OpenSpin/.github/wiki
+    about: Design docs, notes, and background live in the Wiki.

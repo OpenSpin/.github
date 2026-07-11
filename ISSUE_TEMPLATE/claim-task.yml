@@ -1,0 +1,51 @@
+name: "🙋 Claim a task / propose a cleanup"
+description: Say what you want to work on so two people don't duplicate effort.
+title: "[claim] <short description>"
+labels: ["help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for jumping in! This is how we coordinate. Fill in what you can — it doesn't need to be formal.
+  - type: input
+    id: repo
+    attributes:
+      label: Which repo?
+      placeholder: e.g. ReadSpyn
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to do?
+      description: A few sentences. Cleanup, refactor, docstrings, tests, a small feature — anything.
+      placeholder: e.g. Add docstrings to the readout sampler module and a getting-started example.
+    validations:
+      required: true
+  - type: dropdown
+    id: avenue
+    attributes:
+      label: Which avenue does this fit?
+      options:
+        - Cleaning / refactoring code
+        - Open-source simulator
+        - New skill
+        - Database / dataset
+        - Docs
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Rough timeline (optional)
+      placeholder: e.g. this weekend, no rush, exploring
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Quick checks
+      options:
+        - label: I searched existing issues and nobody else is already on this.
+          required: true
+        - label: I understand that if I can't finish, I'll leave a note so someone else can pick it up.
+          required: true
