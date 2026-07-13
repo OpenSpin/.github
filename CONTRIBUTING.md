@@ -6,7 +6,7 @@ This guide covers the practical "how." For what we're about, see the [org profil
 
 ## Before you start
 
-1. **Say hi in [Discussions](https://github.com/orgs/OpenSpin/discussions).** A one-line intro helps us point you at the right thing and avoid duplicated effort.
+1. **Say hi in [Discussions](https://github.com/orgs/OpenSpin/discussions/4).** A one-line intro helps us point you at the right thing and avoid duplicated effort.
 2. **Find or claim an issue.** Browse [good first issues](https://github.com/OpenSpin/.github/labels/good%20first%20issue) across the repos. Comment "taking this" on the issue before you start so two people don't do the same work.
 3. **No issue for what you want to do?** Open one. Describe the change or idea in a few sentences — it doesn't need to be formal.
 
