@@ -2,28 +2,52 @@
 
 Thanks for being here. OpenSpin runs on small, part-time contributions from people who care about open, reproducible spin-qubit tooling. There's no minimum commitment and no gatekeeping — if you have an hour and some interest, there's something useful you can do.
 
-This guide covers the practical "how." For what we're about, see the [org profile](https://github.com/OpenSpin/.github).
+This guide covers the practical "how." For what we're about — the projects, the manifesto, the people — see the [org profile](https://github.com/OpenSpin/.github) or [openspin.github.io](https://openspin.github.io).
 
 ## Before you start
 
-1. **Say hi in [Discussions](https://github.com/orgs/OpenSpin/discussions/4).** A one-line intro helps us point you at the right thing and avoid duplicated effort.
-2. **Find or claim an issue.** Browse [good first issues](https://github.com/OpenSpin/.github/labels/good%20first%20issue) across the repos. Comment "taking this" on the issue before you start so two people don't do the same work.
+1. **Say hi in [Discussions](https://github.com/orgs/OpenSpin/discussions/1).** A one-line intro helps us point you at the right thing and avoid duplicated effort.
+2. **Find or claim an issue.** The [roadmap board](https://github.com/OpenSpin/roadmap/issues) is where cross-project work and bounties are gathered; you can also browse [every open issue in the org](https://github.com/issues?q=org%3AOpenSpin+is%3Aissue+is%3Aopen). Comment "taking this" on the issue before you start so two people don't do the same work.
 3. **No issue for what you want to do?** Open one. Describe the change or idea in a few sentences — it doesn't need to be formal.
 
 ## Where things live
 
-- **Simulators & tools** — each lives in its own repo: [ReadSpyn](https://github.com/OpenSpin/ReadSpyn), [QDarts](https://github.com/qplai/QDarts), [SpinSkills](https://github.com/OpenSpin/SpinSkills), [Spin-Deck](https://github.com/OpenSpin/spin-deck).
-- **Docs, meeting notes, design docs** — the [Wiki](https://github.com/OpenSpin/.github/wiki).
-- **Discussion, questions, coordination** — [Discussions](https://github.com/orgs/OpenSpin/discussions).
+Each simulator or tool lives in its own repo. Nothing is a monolith — pick the one that matches what you want to work on.
+
+**Active**
+
+- [ReadSpyn](https://github.com/OpenSpin/ReadSpyn) — readout simulator: spin-qubit readout traces for developing and benchmarking readout methods.
+- [QDarts](https://github.com/qplai/QDarts) — charge stability diagram simulator for quantum dot arrays.
+- [SpinSkills](https://github.com/OpenSpin/SpinSkills) — reusable, composable agent skills for spin-qubit workflows.
+- [ChargeTwin](https://github.com/OpenSpin/ChargeTwin) — fast world/surrogate simulator of charge-noise disorder and dynamics.
+- [SpinStoq](https://github.com/OpenSpin/SpinStoq) — generator of stochastic spatiotemporal noise trajectories.
+- [SpinDeck](https://github.com/OpenSpin/SpinDeck) — map of open-source hardware relevant to spin qubits.
+
+**Cooking**
+
+- [SpinLib](https://github.com/OpenSpin/SpinLib) — structured library and database of spin-qubit papers.
+- Tuning transformer — ML approach to automating quantum-dot tuning; still taking shape in [Discussions](https://github.com/orgs/OpenSpin/discussions).
+
+**Planning** — the best moment to shape something
+
+- [SpinFEM](https://github.com/OpenSpin/SpinFEM) — finite-element simulator of the Poisson equation from device geometry.
+
+**Everything else**
+
+- [SpinAcademy](https://github.com/OpenSpin/SpinAcademy) — reviews, courses, and starter resources. New to the field? Start here, no pressure to contribute immediately.
+- [roadmap](https://github.com/OpenSpin/roadmap) — cross-project issues, visions, and the bounty board.
+- [Wiki](https://github.com/OpenSpin/.github/wiki) — docs, meeting notes, design docs.
+- [Discussions](https://github.com/orgs/OpenSpin/discussions) — questions, coordination, saying hi.
 
 ## The contribution avenues
 
 In rough order of how much we need them:
 
-1. **Cleaning & refactoring code** _(most valuable, lowest barrier)_ — improve readability, add docstrings, remove dead code, add tests, fix typing, tidy dependencies. You don't need deep domain knowledge to make a repo more usable for the next person.
-2. **Open-source simulators** — extend or improve [ReadSpyn](https://github.com/OpenSpin/ReadSpyn) (readout), [QDarts](https://github.com/qplai/QDarts) (charge stability diagrams), or help start the tuning transformer.
+1. **Cleaning & refactoring code** _(most valuable, lowest barrier)_ — improve readability, add docstrings, remove dead code, add tests, fix typing, tidy dependencies. You don't need deep domain knowledge to make a repo more usable for the next person. Most of the [roadmap board](https://github.com/OpenSpin/roadmap/issues) is this.
+2. **Open-source simulators** — extend or improve [ReadSpyn](https://github.com/OpenSpin/ReadSpyn) (readout), [QDarts](https://github.com/qplai/QDarts) (charge stability diagrams), [ChargeTwin](https://github.com/OpenSpin/ChargeTwin) or [SpinStoq](https://github.com/OpenSpin/SpinStoq) (noise), or help start [SpinFEM](https://github.com/OpenSpin/SpinFEM) and the tuning transformer.
 3. **New skills** — reusable analysis/automation pieces in [SpinSkills](https://github.com/OpenSpin/SpinSkills).
-4. **Datasets** — contribute or clean data in [Spin-Deck](https://github.com/OpenSpin/spin-deck).
+4. **Datasets & maps** — contribute or clean data in [SpinDeck](https://github.com/OpenSpin/SpinDeck) and [SpinLib](https://github.com/OpenSpin/SpinLib).
+5. **Something we haven't thought of** — [propose an avenue](https://github.com/OpenSpin/roadmap/issues/new). Describe what you want to try, find a collaborator, and go.
 
 ## Making a change
 
